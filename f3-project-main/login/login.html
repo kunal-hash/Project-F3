@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main-container">
+        <!--1. navbar -->
+        <div class="navbar">
+            <div class="left">
+                <a href="/Project-F3/f3-project-main/Landingpage/Landingpage.html"><div class="divitem-left">MeShop.</div></a>
+            </div>
+            <div class="right">
+              <a href="#">
+                <div class="divitem-right">Home</div>
+              </a>
+              <a href="#">
+                <div class="divitem-right">Login</div>
+              </a>
+              <a href="/Project-F3/f3-project-main/signup/signup.html">
+                <div class="divitem-right">Signup</div>
+              </a>
+              <a href="#">
+                <div class="divitem-right">My Cart</div>
+              </a>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------------------------------------- -->
+        <div class="Head"><h1>Login</h1></div>
+        <!-- -------------------------------------------------------------------------------------- -->
+        <!-- 2.form -->
+        <div class="form-container">
+            <form action="" id="my-form" >
+                
+                  <div class="row">
+                    <div class="col">
+                      <input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email" autocomplete="off" required>
+                  
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <input type="password" class="form-control" id="password" placeholder="Password" autocomplete="on" aria-label="Password" required> 
+                    
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <button type="submit" id="btn">Login</button> <span><p id="login-err"></p></span>
+                    </div>
+                  </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

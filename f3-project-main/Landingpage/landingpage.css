@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.left {
+    display: flex;
+    background-color: black;
+
+}
+.left a{
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    background-color: black;
+}
+.right a{
+    text-decoration: none;
+}
+.divitem-left{
+    margin: 10px;
+    color: white;
+}
+.divitem-right{
+    margin: 10px;
+    color: white;
+}
+.row{
+    padding: 10px;
+}
+h1{
+padding: 10px;
+}
+#btn{
+    width: 80px;
+    color: white;
+    background-color: black;
+}
+.main{
+    display: flex;
+}
+.section-2{
+    padding: 20px;
+}
+
+

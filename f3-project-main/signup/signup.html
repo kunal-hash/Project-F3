@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="signup.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="main-container">
+    <!--1. navbar -->
+    <div class="navbar">
+      <div class="left">
+        <a href="/Project-F3/f3-project-main/Landingpage/Landingpage.html">
+          <div class="divitem-left">MeShop.</div>
+        </a>
+      </div>
+      <div class="right">
+        <a href="/Project-F3/f3-project-main/Landingpage/Landingpage.html">
+          <div class="divitem-right">Home</div>
+        </a>
+        <a href="/Project-F3/f3-project-main/login/login.html">
+          <div class="divitem-right">Login</div>
+        </a>
+        <a href="#">
+          <div class="divitem-right">Signup</div>
+        </a>
+        <a href="">
+          <div class="divitem-right">My Cart</div>
+        </a>
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------------- -->
+    <div class="Head">
+      <h1>Signup</h1>
+    </div>
+    <!-- -------------------------------------------------------------------------------------- -->
+    <!-- 2.form -->
+    <div class="form-container">
+      <form action="#" id="my-form">
+        <div class="row">
+          <div class="col">
+            <input type="text" id="f-name" class="form-control" placeholder="First Name" aria-label="First Name" required>
+          <p id="name-err"></p>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" id="l-name" class="form-control" placeholder="Last Name" aria-label="Last Name" required>
+            <p id="l-name-err"></p>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="email" id="email" class="form-control" placeholder="Email" aria-label="Email" autocomplete="off" required>
+          <p id="email-err"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="password" id="password" class="form-control" name="password" placeholder="Password" aria-label="Password" autocomplete="current-password" required>
+            <p id="pass-err"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="password" id="conf-pass" class="form-control" name="password" placeholder="Confirm Password" aria-label="Confirm Password" autocomplete="current-password" required>
+          <p id="conf-pass-err"></p>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="submit" id="btn">Signup</button><span><p id="empty-err"></p></span>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <script src="signup.js"></script>
+</body>
+
+</html>
