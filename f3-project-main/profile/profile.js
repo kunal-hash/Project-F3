@@ -28,5 +28,5 @@ console.log(user);
 
 function logout(){
     window.localStorage.removeItem("currentlogin");
-    window.location.href("/Project-F3/f3-project-main/Landingpage/Landingpage.html");
+    window.location.href("/Project-F3/f3-project-main/Landingpage/index.html");
 }
